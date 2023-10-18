@@ -1,15 +1,19 @@
+html {background-color: #5a04e5;}
 /* heading */
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
     text-decoration: underline;
+    text-shadow: rgb(239, 237, 232) 1px 0 10px;
+    font-size: 80px;
 }
 
 .logo {height:min-content;
 padding-right: 5px;}
 
-/* Game Area */
+/* Game Area = used box shadow css generator to style*/ 
+
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
@@ -18,15 +22,27 @@ padding-right: 5px;}
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
-    
+    padding: 1%; 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+/* Text in game area*/
+.score {
+    font-family: "cursive", sans-serif;
+    color: #445361;
+    text-align: start;
+    font-size: medium;
+    padding-left: 20%;
+}
 
-
+#score-font {
+    color: rgb(201, 230, 71);
+    font-weight: bold;
+}
 /* controls*/
-
-
+ 
 .btn--big.btn--big:after{content: attr(data-type);
     font-size: 1rem ;
     color:#445361 ;

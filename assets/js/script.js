@@ -17,7 +17,7 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     resultText.textContent = checkWinner();
 }));
 
-
+//Computer choices
 function computerTurn(){
 
     const randNum = Math.floor(Math.random() * 3) + 1;
@@ -33,6 +33,8 @@ function computerTurn(){
         computer = "SCISSORS";
         break;
     }}
+
+    //When playing
 function checkWinner(){
     if(player == computer){
       return "Draw!";

@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head> <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The-Game</title>
 <link rel="stylesheet" href="assets/css/style.css"></head>
   
-<body><header> <h1 class="logo heading">Rock Paper and Scissors</h1></header>
+<body>
+    
+    <!--Header and logo-->
+    <header> <h1 class="logo heading" > <img class="logo" src="assets/images/logo.png" alt="logo" width=50>Rock Paper and Scissors</h1></header>
 
+    <!--Game-area-->
     <div class="game-area">
+        <div class="score">
         <h1  id="playerText">Player: </h1>
         <h1  id="computerText">Computer: </h1>
         <h1  id="resultText">Result: </h1>
+        </div>
 
-        <button class="choiceBtn btn--blue btn--big">ROCK</button>
+    <!--Buttons RPS-->
+        <button class="choiceBtn btn--blue btn--big"><img class="logo" src="assets/images/logo.png" alt="logo">ROCK</button>
         <button class="choiceBtn btn--green btn--big">PAPER</button>
         <button class="choiceBtn btn--orchid btn--big">SCISSORS</button>
     </div>
 
+    <!--Javascript Connection-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
