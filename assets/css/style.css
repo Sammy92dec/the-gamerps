@@ -41,6 +41,24 @@ padding-right: 5px;}
     color: rgb(201, 230, 71);
     font-weight: bold;
 }
+
+.score-board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Bungee', cursive;
+    }
+
+
+.score-text {
+    color: #49372F;
+}
+
 /* controls*/
  
 .btn--big.btn--big:after{content: attr(data-type);
@@ -95,6 +113,7 @@ padding-right: 5px;}
         font-size: 2rem;
         margin: 0 30px;
         transition: all 0.5s;
+        
     }
     
 /* heading */
