@@ -1,4 +1,4 @@
-![hands rock paper scissors logo](assets/images/logo.png)
+  ![hands rock paper scissors logo](assets/images/logo.png)
 <a id="the-game"></a>
 # The Game Rock Paper Scissors 
 
@@ -27,113 +27,133 @@ Rock,Paper or Scissors - This is a game that has been played for ages its awesom
 - <a href="#credits">Credits</a>
   - <a href="#acknowledgements">Acknowledgements</a>
 
-
-
-
-
 # <a id="demo"></a>Demo
+https://ui.dev/amiresponsive?url=https://github.com/Sammy92dec/the-gamerps.git HERE PUT MY SITE AND THE PICTURE.
 
 <img src="readmefiles/amiresponsive.jpg" alt="Website shown in different devices."><br>
 
-## Gitpod Reminders
+This game can be played in different devises.A simple page easy to manage.It will be Player against Computer.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# <a id="user-experience"></a>User experience (UX)
 
-`python3 -m http.server`
+Rock Paper Scissors is a game to play for fun, The choice is made randomly.So you win if you are only lucky.
 
-A blue button should appear to click: _Make Public_,
+## <a id="user-stories"></a>User stories
+- Understand the purpose of this website quickly and easily.
+- Easily navigate the website.
+- Play a game for fun.
+- Get an understanding the Rock, Paper, Scissors game.
 
-Another blue button should appear to click: _Open Browser_.
+### <a id="strategy"></a>Strategy
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The goal is to make a well-functioning interesting website. The focus was on making the design a fun, user-friendly and creative site.
 
-A blue button should appear to click: _Make Public_,
+### <a id="scope"></a>Scope
 
-Another blue button should appear to click: _Open Browser_.
+For the purpose to show my knowledge in JavaScript, by creating a popular games.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### <a id="structure"></a>Structure
 
-To log into the Heroku toolbelt CLI:
+I aimed for a simple website that should contain as little clicks as possible.It have few coding compared with my first project.Adding mouse effect for the excitment.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Website:**  CHECK THE WEB
+1. **_Home / Index page:_** Landing page with a hero image. Link to play page and some instructions included.
+2. **_Game:_** The game area with clickable images to play.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### <a id="skeleton"></a>Skeleton
+The website is this designed as it it looks simple and clear.For the wireframe I used pen and paper to help me with my planning.
 
-## Release History
+### <a id="surface"></a>Surface
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The background color is purple and the buttons are Red , Green and Orchid.The purpose was to make it look fun and happy color.
 
-**September 20 2023:** Update Python version to 3.9.17.
+## <a id="technologies"></a>Technologies
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+1. HTML - To create a basic site
+2. CSS - To create the pages beauty with colors and some edits on the header texts and the aligmennt of the whole page
+3. JavaScript - to handle all the mechanics and make it reponsive.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## <a id="features"></a>Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ock Paper Scissors is a game with only one page divided in three sections.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* Header with the title of the game. Background color blends in well with the rest of the page. 
+![Header](assets/images/readme/rps-header.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Game area with a heading and three icons to choose from when playing the game. 
+![Game area](assets/images/readme/rps-game-area.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Future Implementations
+being able to have score history with Players names.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Accessibility
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+For the accessibility this was used:
+- Semantic HTML.
+- Alt attributes on images
+- Sufficient colour contrast.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## <a id="testing"></a>Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+In contrast to the first project. I continuously tested the code along to with coding to make sure everything is ok.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Some things that come up is to add a header to each section in the html code. But I later changed the sections and just had one header added.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The CSS Validator gave me two errors. One that I had forgot to write a unit on a margin. And the second one was that I had typed "position; bottom;"
+which I changed to "position; fixed;".
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I also used Lighthouse in Chrome to find ways to increase the accessibility of the website.<br>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Links to the validation
+<ul>
+<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Findex.html" target="_blank">index</a> page.</li>
+<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Fgame.html" target="_blank">game</a> page.</li>
+<li> CSS of <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">style.css</a>.</li>
+<li> To validate my JavaScript I  used <a href="https://jshint.com/" target="_blank">https://jshint.com/</a>. (Couldn't find a way to post links, directly to the JavaScript file.)</li>
+</ul>
 
-------
+Other than the validators. I've been using the Inspect view in Google Crome using different layout for different devices and a lot with the responsive layout.
+I also tested the website through my iPhone.
+I've tested the website on a PC using Chrome and Edge web browsers.
+Also, my mentor has tried the website. 
 
-## FAQ about the uptime script
+### <a id="bugs"></a>Bugs? CHECK
 
-**Why have you added this script?**
+## Frameworks, Libraries & Programs Used
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Github
+- Gitpod
+- Google Fonts 
+- Google Dev Tools 
+- Canva
+- Am I Responsive? 
+- Gimp
+- w3 schools
 
-**How will this affect me?**
+## <a id="deployment"></a>Deployment
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Log in (or sign up) to Github.
+- Find the repository for this project, rock-paper-scissors.
+- Click on the Settings link.
+- Click on the Pages link in the left hand side navigation bar.
+- In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+- Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## <a id="credits"></a>Credits
+### Code Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+###  Media
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+  
+###  Acknowledgments
 
----
-
-Happy coding!
+ 
