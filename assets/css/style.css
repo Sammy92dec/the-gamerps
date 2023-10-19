@@ -3,10 +3,10 @@ html {background-color: #5a04e5;}
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-decoration: underline;
     text-shadow: rgb(239, 237, 232) 1px 0 10px;
-    font-size: 80px;
+    font-size: 65px;
 }
 
 .logo {height:min-content;
@@ -18,8 +18,8 @@ padding-right: 5px;}
     background-color: #E6ECF0;
     box-sizing: border-box;
     width: 85%;
-    max-height: 450px;
-    max-width: 830px;
+    max-height: 550px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%; 
@@ -55,14 +55,10 @@ padding-right: 5px;}
     }
 
 
-.score-text {
-    color: #49372F;
-}
-
 /* controls*/
  
 .btn--big.btn--big:after{content: attr(data-type);
-    font-size: 1rem ;
+    font-size: 0rem ;
     color:#445361 ;
      position: relative;
      left:-0.5em;
@@ -110,12 +106,11 @@ padding-right: 5px;}
         border: 10px solid;
         width: 300;
         height: 100px;
-        font-size: 2rem;
+        font-size: 1rem;
         margin: 0 30px;
         transition: all 0.5s;
         
     }
-    
-/* heading */
-
-/* heading */
+  
+    footer { color: white;
+    text-shadow: black;}
