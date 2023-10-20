@@ -22,6 +22,7 @@ padding-right: 5px;}
     margin-left: auto;
     margin-right: auto;
     padding: 1%; 
+    background-color: #5a04e5;
 }
     
 /* Text in game area*/
@@ -110,4 +111,6 @@ padding-right: 5px;}
   
     footer { color: white;
     text-shadow: black;
-text-align: center;}
+    position: fixed;
+   bottom: 0;
+   text-align: center;}
