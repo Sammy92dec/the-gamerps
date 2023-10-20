@@ -1,9 +1,8 @@
-  ![hands rock paper scissors logo](assets/images/logo.png)
-<a id="the-game"></a>
-# The Game Rock Paper Scissors 
+#  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo"/> The Game Rock Paper Scissors 
 
-Rock,Paper or Scissors - This is a game that has been played for ages its awesome that we can have it digitlized.Mostly its played with two person but with this game it will be Player vs Computer .How is works is  Rock always beat Scissors, Scissors always beat Paper, and Paper always beat Rock.An easy game which you do not need a lot of practice.With this project I practiced Javascript including also my HTML and CSS skills.
-
+<a id="the-game"></a> 
+ 
+Rock, Paper, or Scissors - This game has been played for ages its fantastic that we can have it digitalised. Mostly it's played with two people but with this game, it will be Player vs Computer. How it works is  Rock always beats Scissors, Scissors always beat Paper, and Paper always beat Rock. A straightforward game in which you do not need a lot of practice. With this project, I practiced Javascript including also my HTML and CSS skills.
 
 # <a id="table-of-content"></a>Table of Content
 
