@@ -17,13 +17,12 @@ Rock, Paper, or Scissors - This game has been played for ages its fantastic that
   - <a href="#surface">Surface</a>
 - <a href="#technologies">Technologies</a>
 - <a href="#features">Features</a>
-- <a href="#finalising">Finalising</a>
-- <a href="#more-features">More Features</a>
+
 - <a href="#testing">Testing</a>
-  - <a href="#bugs">Bugs</a>
+
 - <a href="#deployment">Deployment</a>
 - <a href="#credits">Credits</a>
-  - <a href="#acknowledgements">Acknowledgements</a>
+ 
 
 # <a id="demo"></a>Demo
 This game can be played in different devices.A simple page easy to manage.
@@ -67,13 +66,13 @@ The background color is purple and the buttons are red, green, and orchid.The pu
 
 <img src="assets/images/color-palette.png" alt="color-palette"/>
 
-## <a id="technologies"></a>Technologies
+# <a id="technologies"></a>Technologies
 
 1. HTML - To create a basic site
 2. CSS - To create the pages beauty with colors and some edits on the header texts and the aligmennt of the whole page
 3. JavaScript - to handle all the mechanics and make it reponsive.
 
-## <a id="features"></a>Features
+# <a id="features"></a>Features
 
 Rock Paper Scissors is a game with only one page.
 
@@ -97,37 +96,24 @@ For the accessibility this was used:
 
 ## <a id="testing"></a>Testing
 
-In contrast to the first project. I continuously tested the code along to with coding to make sure everything is ok.I started my coding with Replit as I had issue with Codeanywhere at the beginning. After validating HTML one error was marked.It was just a closing div and solved it just my removing it. I used  "https://validator.w3.org/nu/#textarea" to validate HTML
+### HTML
+In contrast to the first project. I continuously tested the code along to with coding to make sure everything is ok.I started my coding with Replit as I had issue with Codeanywhere at the beginning. After validating HTML one error was marked.It was just a closing div and solved it just my removing it. I used  "https://validator.w3.org/nu/#textarea" to validate HTML.
 
-The CSS Validator gave me two errors. I had added a code to have a shadow to the game-area but it came wrong on the CSS validator though it was nice on the game I had to remove it.
+### CSS
+The CSS Validator gave me two errors. I had added a code to have a shadow to the game-area but it came wrong on the CSS validator though it was nice on the game I had to remove it. I used "https://jigsaw.w3.org/css-validator/" to validate CSS.
 
+### Acessbility
 I also used Lighthouse in Chrome to find ways to increase the accessibility of the website.
 <img src="assets/images/lighthouse.png" alt="acessibility-result">
-<br>
 
-Links to the validation
+### Javascript
+For Javascript validation I used "https://jshint.com/".I got 15 warnings.But I had to only correct the last function "Checkwinner" I forgot semi-colon.But the rest just came up as warning. 
 
-<li> To validate my JavaScript I  used <a href="https://jshint.com/" target="_blank">https://jshint.com/</a>. (Couldn't find a way to post links, directly to the JavaScript file.)</li>
-</ul>
+To add I've been using the Inspect view in Google Crome using different layout for different devices and a lot with the responsive layout.
+I used "https://www.freeformatter.com/html-formatter".html#before-output" to orgnaize my HTML coding.
 
-Other than the validators. I've been using the Inspect view in Google Crome using different layout for different devices and a lot with the responsive layout.
-I also tested the website through my iPhone.
-I've tested the website on a PC using Chrome and Edge web browsers.
-Also, my mentor has tried the website. 
-
-### <a id="bugs"></a>Bugs? CHECK
-
-## Frameworks, Libraries & Programs Used
-
-- Github
-- Gitpod
-- Google Fonts 
-- Google Dev Tools 
-- Canva
-- Am I Responsive? 
-- Gimp
-- w3 schools
-
+### <a id="bugs"></a>Bugs? 
+I didn't find any bugs to solve it was a smooth project.
 ## <a id="deployment"></a>Deployment
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
@@ -141,16 +127,23 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 ## <a id="credits"></a>Credits
 ### Code Used
 
-
-
+- Inspiration was from Code-institue Project idea.
+- Check alot of youtube videos when I was going but more credit goes to 
+Bro-Code "https://www.youtube.com/watch?v=n1_vHArDBRA"
+- Used some of the ideas from I Love Math videos for my control buttons
 ### Content
-
-
-
+Written by Samrawit Tekheste
 ###  Media
 
+* For the logo in the page and the controls I used icons from 
+"https://www.flaticon.com/"
 
-  
+* I used "https://www.favicon.cc/" to shrink the logo to use it in the tab.
+
+* As for the rest of the media i added the links before the picture or right after.
+
 ###  Acknowledgments
+Thanks to my mentor to help me finish this project with excitment.
+- Martina Terlevic, my Code institute mentor.
 
  
