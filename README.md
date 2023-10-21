@@ -1,12 +1,13 @@
 #  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo"/> The Game Rock Paper Scissors 
-
-<a id="the-game"></a> 
  
+ # <a id="intro"></a>
 Rock, Paper, or Scissors - This game has been played for ages its fantastic that we can have it digitalised. Mostly it's played with two people but with this game, it will be Player vs Computer. How it works is  Rock always beats Scissors, Scissors always beat Paper, and Paper always beat Rock. A straightforward game in which you do not need a lot of practice. With this project, I practiced Javascript including also my HTML and CSS skills.
+
+<img src="assets/images/rps.png" alt="screenshot of front page"/> 
 
 # <a id="table-of-content"></a>Table of Content
 
-- <a href="#the-game">Rock, Paper, Scissors - The Game</a>
+- <a href="#intro">Intro</a>
 - <a href="#table-of-content">Table of Content</a>
 - <a href="#demo">Demo</a>
 - <a href="#user-experience">User Experience</a>
