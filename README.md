@@ -1,16 +1,14 @@
-#  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo"/> The Game Rock Paper Scissors 
+#  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo" id="intro"/> The Game Rock Paper Scissors 
  
- # <a id="intro"></a>
-Rock, Paper, or Scissors - This game has been played for ages its fantastic that we can have it digitalised. Mostly it's played with two people but with this game, it will be Player vs Computer. How it works is  Rock always beats Scissors, Scissors always beat Paper, and Paper always beat Rock. A straightforward game in which you do not need a lot of practice. With this project, I practiced Javascript including also my HTML and CSS skills.
+Rock, Paper, or Scissors - This game has been played for ages its fantastic that we can have it digitalised. Mostly it's played with two people but with this game, it will be Player vs Computer. How it works is  Rock always beats Scissors, Scissors always beat Paper, and Paper always beat Rock. A straightforward game in which you do not need a lot of practice. With this project, I practiced Javascript including also my HTML and CSS skills. </a>
 
 <img src="assets/images/rps.png" alt="screenshot of front page"/> 
 
-# <a id="table-of-content"></a>Table of Content
+# Table of Content
 
-- <a href="#intro">Intro</a>
-- <a href="#table-of-content">Table of Content</a>
+
 - <a href="#demo">Demo</a>
-- <a href="#user-experience">User Experience</a>
+- <a href="#ux">User Experience</a>
 - <a href="#user-stories">User Stories</a>
   - <a href="#strategy">Strategy</a>
   - <a href="#scope">Scope</a>
@@ -28,17 +26,19 @@ Rock, Paper, or Scissors - This game has been played for ages its fantastic that
   - <a href="#acknowledgements">Acknowledgements</a>
 
 # <a id="demo"></a>Demo
-https://ui.dev/amiresponsive?url=https://github.com/Sammy92dec/the-gamerps.git HERE PUT MY SITE AND THE PICTURE.
+This game can be played in different devices.A simple page easy to manage.
+It will be Player against Computer.I used "ami.responsivedesign.is" to show how the frontpage would look.
 
-<img src="readmefiles/amiresponsive.jpg" alt="Website shown in different devices."><br>
+<img src="assets/images/ami.png" alt="The games across other devies">
+<hr>
 
-This game can be played in different devises.A simple page easy to manage.It will be Player against Computer.
+# <a id="ux"></a> User Experience (UX)
 
-# <a id="user-experience"></a>User experience (UX)
-
-Rock Paper Scissors is a game to play for fun, The choice is made randomly.So you win if you are only lucky.
+Rock Paper Scissors is a game to play for fun. 
+The choice is made randomly,so you win if you are only lucky.
 
 ## <a id="user-stories"></a>User stories
+
 - Understand the purpose of this website quickly and easily.
 - Easily navigate the website.
 - Play a game for fun.
@@ -46,7 +46,7 @@ Rock Paper Scissors is a game to play for fun, The choice is made randomly.So yo
 
 ### <a id="strategy"></a>Strategy
 
-The goal is to make a well-functioning interesting website. The focus was on making the design a fun, user-friendly and creative site.
+The focus was on making the design a fun, user-friendly and creative site.
 
 ### <a id="scope"></a>Scope
 
@@ -54,19 +54,18 @@ For the purpose to show my knowledge in JavaScript, by creating a popular games.
 
 ### <a id="structure"></a>Structure
 
-I aimed for a simple website that should contain as little clicks as possible.It have few coding compared with my first project.Adding mouse effect for the excitment.
-
-**Website:**  CHECK THE WEB
-1. **_Home / Index page:_** Landing page with a hero image. Link to play page and some instructions included.
-2. **_Game:_** The game area with clickable images to play.
-
+I aimed for a simple website that should contain as little clicks as possible.It have few coding compared with my first project.Adding mouse lisner to make it reponsive.
 
 ### <a id="skeleton"></a>Skeleton
-The website is this designed as it it looks simple and clear.For the wireframe I used pen and paper to help me with my planning.
+The website is this designed as it it looks simple and clear.For the wireframe I used pen and paper to help me with my planning.It doesn't look like the sketch but evolved to how it looks now.
+
+<img src="assets/images/sketch.jpg" alt="sketch"/>
 
 ### <a id="surface"></a>Surface
 
-The background color is purple and the buttons are Red , Green and Orchid.The purpose was to make it look fun and happy color.
+The background color is purple and the buttons are red, green, and orchid.The purpose was to make it look fun and happy color.For the color scheme those are the colors that stand out but I have orchid for my scissor button.I used "http://colormind.io/image/" for my color palette.
+
+<img src="assets/images/color-palette.png" alt="color-palette"/>
 
 ## <a id="technologies"></a>Technologies
 
