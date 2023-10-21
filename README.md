@@ -1,11 +1,12 @@
-#  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo" id="intro"/> The Game Rock Paper Scissors 
+#  <img src="assets/images/logo.png" width=50 alt="hands rock paper scissors logo"/> The Game Rock Paper Scissors 
  
 Rock, Paper, or Scissors - This game has been played for ages its fantastic that we can have it digitalised. Mostly it's played with two people but with this game, it will be Player vs Computer. How it works is  Rock always beats Scissors, Scissors always beat Paper, and Paper always beat Rock. A straightforward game in which you do not need a lot of practice. With this project, I practiced Javascript including also my HTML and CSS skills. </a>
+
+Link to the website : "https://sammy92dec.github.io/the-gamerps/"
 
 <img src="assets/images/rps.png" alt="screenshot of front page"/> 
 
 # Table of Content
-
 
 - <a href="#demo">Demo</a>
 - <a href="#ux">User Experience</a>
