@@ -75,16 +75,18 @@ The background color is purple and the buttons are red, green, and orchid.The pu
 
 ## <a id="features"></a>Features
 
-ock Paper Scissors is a game with only one page divided in three sections.
+Rock Paper Scissors is a game with only one page.
 
 * Header with the title of the game. Background color blends in well with the rest of the page. 
-![Header](assets/images/readme/rps-header.png)
 
-* Game area with a heading and three icons to choose from when playing the game. 
-![Game area](assets/images/readme/rps-game-area.png)
+<img src="assets/images/header.png" alt="header">
+
+* Game area is with two parts the score area and three icons to choose from when playing the game. 
+
+<img src="assets/images/game-area.png" alt="game-area">
 
 ### Future Implementations
-being able to have score history with Players names.
+To have score history with Players names.
 
 ### Accessibility
 
@@ -95,20 +97,16 @@ For the accessibility this was used:
 
 ## <a id="testing"></a>Testing
 
-In contrast to the first project. I continuously tested the code along to with coding to make sure everything is ok.
+In contrast to the first project. I continuously tested the code along to with coding to make sure everything is ok.I started my coding with Replit as I had issue with Codeanywhere at the beginning. After validating HTML one error was marked.It was just a closing div and solved it just my removing it. I used  "https://validator.w3.org/nu/#textarea" to validate HTML
 
-Some things that come up is to add a header to each section in the html code. But I later changed the sections and just had one header added.
+The CSS Validator gave me two errors. I had added a code to have a shadow to the game-area but it came wrong on the CSS validator though it was nice on the game I had to remove it.
 
-The CSS Validator gave me two errors. One that I had forgot to write a unit on a margin. And the second one was that I had typed "position; bottom;"
-which I changed to "position; fixed;".
-
-I also used Lighthouse in Chrome to find ways to increase the accessibility of the website.<br>
+I also used Lighthouse in Chrome to find ways to increase the accessibility of the website.
+<img src="assets/images/lighthouse.png" alt="acessibility-result">
+<br>
 
 Links to the validation
-<ul>
-<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Findex.html" target="_blank">index</a> page.</li>
-<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Fgame.html" target="_blank">game</a> page.</li>
-<li> CSS of <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobertahlin.github.io%2Frps-project2b%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">style.css</a>.</li>
+
 <li> To validate my JavaScript I  used <a href="https://jshint.com/" target="_blank">https://jshint.com/</a>. (Couldn't find a way to post links, directly to the JavaScript file.)</li>
 </ul>
 
